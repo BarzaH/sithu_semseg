@@ -8,7 +8,7 @@ setup(
     author='Sithu Aung',
     author_email='sithu31296@gmail.com',
     license='MIT',
-    packages=find_packages(include=['semseg']),
+    packages=find_packages(),
     install_requires=[
         'tqdm',
         'tabulate',
