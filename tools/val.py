@@ -7,11 +7,11 @@ from tqdm import tqdm
 from tabulate import tabulate
 from torch.utils.data import DataLoader
 from torch.nn import functional as F
-from semseg.models import *
-from semseg.datasets import *
-from semseg.augmentations import get_val_augmentation
-from semseg.metrics import Metrics
-from semseg.utils.utils import setup_cudnn
+from sithu_semseg.models import *
+from sithu_semseg.datasets import *
+from sithu_semseg.augmentations import get_val_augmentation
+from sithu_semseg.metrics import Metrics
+from sithu_semseg.utils.utils import setup_cudnn
 
 
 @torch.no_grad()

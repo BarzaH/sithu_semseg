@@ -2,8 +2,8 @@ import argparse
 import numpy as np
 import tflite_runtime.interpreter as tflite
 from PIL import Image
-from semseg.utils.visualize import generate_palette
-from semseg.utils.utils import timer
+from sithu_semseg.utils.visualize import generate_palette
+from sithu_semseg.utils.utils import timer
 
 
 class Inference:

@@ -2,7 +2,7 @@ import torch
 import argparse
 import time
 from fvcore.nn import flop_count_table, FlopCountAnalysis
-from semseg.models import *
+from sithu_semseg.models import *
 
 
 def main(

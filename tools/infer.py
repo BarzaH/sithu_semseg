@@ -7,10 +7,10 @@ from torch.nn import functional as F
 from pathlib import Path
 from torchvision import io
 from torchvision import transforms as T
-from semseg.models import *
-from semseg.datasets import *
-from semseg.utils.utils import timer
-from semseg.utils.visualize import draw_text
+from sithu_semseg.models import *
+from sithu_semseg.datasets import *
+from sithu_semseg.utils.utils import timer
+from sithu_semseg.utils.visualize import draw_text
 
 from rich.console import Console
 console = Console()

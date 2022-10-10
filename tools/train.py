@@ -12,13 +12,13 @@ from torch.cuda.amp import GradScaler, autocast
 from torch.nn.parallel import DistributedDataParallel as DDP
 from torch.utils.data import DistributedSampler, RandomSampler
 from torch import distributed as dist
-from semseg.models import *
-from semseg.datasets import * 
-from semseg.augmentations import get_train_augmentation, get_val_augmentation
-from semseg.losses import get_loss
-from semseg.schedulers import get_scheduler
-from semseg.optimizers import get_optimizer
-from semseg.utils.utils import fix_seeds, setup_cudnn, cleanup_ddp, setup_ddp
+from sithu_semseg.models import *
+from sithu_semseg.datasets import *
+from sithu_semseg.augmentations import get_train_augmentation, get_val_augmentation
+from sithu_semseg.losses import get_loss
+from sithu_semseg.schedulers import get_scheduler
+from sithu_semseg.optimizers import get_optimizer
+from sithu_semseg.utils.utils import fix_seeds, setup_cudnn, cleanup_ddp, setup_ddp
 from val import evaluate
 
 

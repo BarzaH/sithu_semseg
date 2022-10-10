@@ -4,8 +4,8 @@ import yaml
 import onnx
 from pathlib import Path
 from onnxsim import simplify
-from semseg.models import *
-from semseg.datasets import *
+from sithu_semseg.models import *
+from sithu_semseg.datasets import *
 
 
 def export_onnx(model, inputs, file):
