@@ -5,10 +5,12 @@ from .sfnet import SFNet
 from .bisenetv1 import BiSeNetv1
 from .bisenetv2 import BiSeNetv2
 from .lawin import Lawin
+from .segformer_with_head import SegFormerWithHead
 
 
 __all__ = [
-    'SegFormer', 
+    'SegFormer',
+    'SegFormerWithHead',
     'Lawin',
     'SFNet', 
     'BiSeNetv1', 
