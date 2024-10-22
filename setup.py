@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='sithu_semseg',
-    version='0.4.1',
+    version='0.4.1.post1',
     description='SOTA Semantic Segmentation Models',
     url='https://github.com/sithu31296/semantic-segmentation',
     author='Sithu Aung',
